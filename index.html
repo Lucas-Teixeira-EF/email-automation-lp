@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoMail | The Future of Connection</title>
+
+    <!-- Fonts: Syne for Headlines, Space Grotesk for Tech Details -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&family=Syne:wght@400;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Core Styles -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- External Libraries (Premium Feel) -->
+    <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+</head>
+
+<body>
+    <!-- Noise Overlay for Texture -->
+    <div class="noise-overlay"></div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <header class="fixed-nav">
+        <a href="#" class="logo">AM<span class="dot">.</span></a>
+        <nav>
+            <a href="#features" class="nav-link">Intelligence</a>
+            <a href="#pricing" class="nav-link">Scale</a>
+            <a href="#signup" class="btn-pill">Get Access</a>
+        </nav>
+    </header>
+
+    <main id="smooth-wrapper">
+        <div id="smooth-content">
+
+            <!-- HERO: Massive Typography + Parallax -->
+            <section class="hero">
+                <div class="hero-container">
+                    <h1 class="mega-type">
+                        <span class="line" data-speed="1.1">CON</span>
+                        <span class="line outline" data-speed="1.0">NEC</span>
+                        <span class="line" data-speed="0.9">TION</span>
+                    </h1>
+
+                    <div class="hero-image-wrapper" data-speed="0.8">
+                        <!-- Abstract Visual instead of generic dashboard -->
+                        <div class="abstract-visual"></div>
+                    </div>
+
+                    <div class="hero-meta" data-speed="1.2">
+                        <p class="tagline">EMAIL AUTONOMY v2.0</p>
+                        <p class="desc">Stop sending emails. Start engineering relationships.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- STREAM: Horizontal Scroll / High Tech -->
+            <section class="stream" id="features">
+                <div class="stream-track">
+                    <div class="stream-item">
+                        <span class="number">01</span>
+                        <h3>Neural Sorting</h3>
+                        <p>AI that filters noise, not just spam.</p>
+                    </div>
+                    <div class="stream-item active">
+                        <span class="number">02</span>
+                        <h3>Hyper-Personal</h3>
+                        <p>Content that mutates based on user intent.</p>
+                    </div>
+                    <div class="stream-item">
+                        <span class="number">03</span>
+                        <h3>Zero-Latency</h3>
+                        <p>Real-time delivery infrastructure.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CALL TO ACTION: Brutalist -->
+            <section class="final-cta">
+                <div class="marquee">
+                    <span>UPGRADE NOW — UPGRADE NOW — UPGRADE NOW — </span>
+                </div>
+                <div class="cta-content">
+                    <h2>READY?</h2>
+                    <form class="minimal-form">
+                        <input type="email" placeholder="ENTER_EMAIL" required>
+                        <button type="submit">→</button>
+                    </form>
+                </div>
+            </section>
+
+            <footer class="minimal-footer">
+                <div class="col">
+                    <p>© 2026 AutoMail Inc.</p>
+                </div>
+                <div class="col right">
+                    <a href="#">Legals</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">Github</a>
+                </div>
+            </footer>
+
+        </div>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
